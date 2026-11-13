@@ -1,0 +1,20 @@
+
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Large source and processed datasets
+data/*.zip
+data/*.xlsx
+data/retail_data.csv
+data/cleaned_sales_data.csv
+
+# Local configuration and secrets
+.streamlit/secrets.toml
+
+# Temporary files
+.DS_Store
+Thumbs.db
+data/extracted/
+data/**/*.xlsx
